@@ -1,0 +1,8 @@
+{
+  "name": "Turtle's Towing & Diesel Repair",
+  "description": "24/7 towing, flatbed recovery, roadside assistance, and auto/diesel pickup repair in Union, South Carolina and Upstate. Light & medium-duty specialists.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
