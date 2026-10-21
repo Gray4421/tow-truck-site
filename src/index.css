@@ -2,17 +2,36 @@
 
 @layer base {
   body {
-    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    background-color: #090d16;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #05070c;
+    color: #f1f5f9;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Outfit', sans-serif;
   }
 }
 
-/* Clean, subdued card surfaces */
-.simple-card {
-  background-color: #0f172a;
-  border: 1px solid #1e293b;
+/* Glass pill styling inspired by high-end design reference */
+.glass-pill {
+  background: rgba(18, 24, 38, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.simple-card:hover {
-  border-color: #334155;
+.glass-card {
+  background: rgba(14, 18, 28, 0.85);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-card:hover {
+  border-color: rgba(52, 211, 153, 0.3);
+}
+
+/* Glow effects */
+.accent-glow {
+  box-shadow: 0 0 40px -10px rgba(52, 211, 153, 0.25);
 }
