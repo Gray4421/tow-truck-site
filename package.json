@@ -1,7 +1,9 @@
 {
-  "name": "react-example",
+  "name": "turtles-towing-and-diesel-repair",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "author": "William J McKenzie <jwilliam4421@gmail.com>",
+  "license": "UNLICENSED",
   "type": "module",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",

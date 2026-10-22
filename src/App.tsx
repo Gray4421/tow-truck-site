@@ -1,6 +1,15 @@
 /**
- * @license
- * SPDX-License-Identifier: Apache-2.0
+ * @fileoverview Official Website for Turtle's Towing & Diesel Repair LLC
+ * 
+ * PROPRIETARY CODEBASE & OWNERSHIP NOTICE:
+ * All rights reserved for William J McKenzie under the number 864 524 7459 and jwilliam4421@gmail.com.
+ * 
+ * Copyright (c) 2024-2026 William J McKenzie. All rights reserved.
+ * Phone: 864 524 7459
+ * Email: jwilliam4421@gmail.com
+ * 
+ * Unauthorized duplication, redistribution, scraping, or appropriation
+ * of this codebase is strictly prohibited.
  */
 
 import React, { useState, useEffect } from 'react';
@@ -16,6 +25,26 @@ import {
   MessageSquare,
   ChevronRight
 } from 'lucide-react';
+
+// Code Copyright & Rights Reserved (In-code only)
+export const CODE_RIGHTS_RESERVED = {
+  rightsReservedFor: "William J McKenzie",
+  phone: "864 524 7459",
+  email: "jwilliam4421@gmail.com",
+  notice: "All rights reserved for William J McKenzie under the number 864 524 7459 and jwilliam4421@gmail.com"
+} as const;
+
+// Verified Business Credentials
+export const BUSINESS_INFO = {
+  businessName: "Turtle's Towing & Diesel Repair",
+  legalEntity: "Turtle's Auto & Diesel Repair LLC",
+  phoneDisplay: "(864) 466-5979",
+  phoneRaw: "8644665979",
+  email: "turtlesautodieselrepair@gmail.com",
+  location: "1502 Lockhart Hwy, Union, SC 29379",
+  usdot: "4179005",
+  mc: "1608646",
+} as const;
 
 // Official user-uploaded company logo and authentic company truck photos
 const LOGO_IMG = '/assets/aistudio/420074475_122099451446188948_2847702470456231766_n_87899a7e.jpg';
@@ -781,10 +810,14 @@ export default function App() {
             <div className="flex items-center gap-3">
               <Mail className="w-5 h-5 text-emerald-400 shrink-0" />
               <span className="text-slate-300">
-                Email inquiries, invoicing, and fleet accounts: <a href="mailto:turtlesautodieselrepair@gmail.com" className="text-white font-semibold underline">turtlesautodieselrepair@gmail.com</a>
+                Direct email inquiries, invoicing &amp; fleet accounts: <a href="mailto:turtlesautodieselrepair@gmail.com" className="text-white font-semibold underline hover:text-emerald-400 transition-colors">turtlesautodieselrepair@gmail.com</a>
               </span>
             </div>
-            <span className="font-mono text-slate-400 text-[11px]">USDOT #4179005</span>
+            <div className="flex items-center gap-3 font-mono text-slate-400 text-[11px]">
+              <span>USDOT #4179005</span>
+              <span>·</span>
+              <span className="text-slate-400">Union County, SC</span>
+            </div>
           </div>
 
         </div>
