@@ -230,13 +230,13 @@ export default function App() {
                 <span className="text-slate-400">Union, SC &amp; Upstate</span>
               </div>
 
-              {/* Bold Display Headline (Inspired by "REDEFINE OCEAN SPEED") */}
-              <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white uppercase font-display leading-[0.95]">
+              {/* Bold Display Headline */}
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white uppercase font-display leading-[1.05]">
                 WHEN YOU'RE <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-slate-200 to-emerald-400">
                   STRANDED,
                 </span>{' '}
-                WE ROLL.
+                WE ARE AT YOUR SERVICE.
               </h1>
 
               {/* Crisp Subtitle */}
